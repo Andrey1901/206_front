@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title></title>
+    <title>Courtyard by Marriott Hotel - 206 tours</title>
     <meta name="Description" content="206 Tours 206 Tours, Leader in Catholic Pilgrimages, with Catholic Priests and Mass daily, Secular and Independent Travel are invitations from God to visit spiritual locations and signposts left behind by God, Visit religious location around the world.">
     <meta name="KeyWords" content="pilgrimage, god, spiritual, journey, spiritual journey, catholic pilgrimage, secular tours, religious tours, catholic, christian, jubilee, secular tours, group travel, medjugorje, lourdes, shrines of france, fatima, spain, portugal, garbandal, santiago, rome, italy, the holy land, egypt, greece, poland, budapest, vienna, ireland, guadalupe, oberammergau, paris, nevers, lisieux, jordan, prague, salzburg ">
     <? include("/home/tours206/www/front_development/assets/head_static.html");?>
     <style>
+        .hotel-slider_item img {
+            width: auto;
+            max-height: 300px}
+        .hotel-slider-nav img {
+            max-height: 100px;
+            width: auto;
+        }
+        .slick-slide {
+            text-align: center;
+        }
+        .slick-slide::before {
+            content: '';
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+        .slick-slide img {
+            vertical-align: middle;
+            display: inline-block;
+        }
         .div-slider {
             width: 100%;
         }
-
         .hotel-slider {
             padding-bottom: 30px;
         }
-
         .hotel-slider-nav .hotel-slider_item {
             margin: 0 10px 0 10px;
         }
-
-        .hotel-slider_item img {
-            width: 100%;
-        }
-
         .tab-list li {
             display: inline-block;
             width: 14.5%;
         }
-
         .section-title {
             text-align: center;
         }
@@ -41,7 +53,7 @@
             height: 45px !important;
         }
         .tour-slider {
-            min-height: 500px;
+            min-height: 350px !important;
         }
         .tabs-content ul{
             text-align: left;
@@ -56,7 +68,6 @@
 <div class="wrapper">
     <? include("/home/tours206/www/front_development/assets/header.html");?>
     <main id="main">
-        <!--Write code here:-->
         <div class="row">
             <div class="small-12 middle-12 xlarge-12 column bottommargin">
                 <div class="section-title">
@@ -65,11 +76,13 @@
                     </h3>
                 </div>
             </div>
-            <div class="small-12 middle-12 xlarge-6 column bottommargin align-top text-center">
+        </div>
+        <div class="row">
+            <div class="small-12 xlarge-6 column bottommargin align-top text-center">
                 <p><b>About the Courtyard by Marriott:</b></p>
                 <p>This newly built and state of the art Courtyard by Marriott hotel is ideally located just around the corner from Vienna's tourist attraction no. 1, Schloss Schoenbrunn. and easily reachable by car from highway A1 and A2. Modern architecture, quality textures and warm colors make our air-conditioned guest rooms comfortable and cozy. Ideal for the business traveller (big desk, ergonomic chair, high speed internet access, flat TV, tea/coffee making facilities, business corner, conference rooms, mini gym, garage) the hotel is also the place to start your sight seeing tour through Vienna. Explore Schoenbrunn and stroll through its lush gardens just like Sissi did. Your children's favorite place will be the world renown zoo. The subway located right next to us will take you to the city center within 10 minutes, where history and tradition but also the bustling life of a world metropolis are waiting for you. Whatever your reason for a trip to Vienna might be, we will make your stay with us an unforgettable one.</p>
             </div>
-            <div class="small-12 middle-12 xlarge-6 column div-slider bottommargin">
+            <div class="small-12 xlarge-6 column div-slider bottommargin">
                 <div class="tour-slider">
                     <div class="hotel-slider">
                         <div class="hotel-slider_item"><img src="14382337.jpg" title="Courtyard by Marriott"></div>
@@ -105,7 +118,7 @@
                         <div class="hotel-slider_item"><img src="Meetings_3_2_Image.jpg" title="Courtyard by Marriott"></div>
                         <div class="hotel-slider_item"><img src="viecy-terrace-0077-hor-wide.jpg" title="Courtyard by Marriott"></div>
                     </div>
-                    <div class="small-12 middle-12 xlarge-12 column hotel-slider-nav align-middle">
+                    <div class="hotel-slider-nav">
                         <div class="hotel-slider_item"><img src="14382337.jpg" title="Courtyard by Marriott"></div>
                         <div class="hotel-slider_item"><img src="14377611.jpg" title="Courtyard by Marriott"></div>
                         <div class="hotel-slider_item"><img src="14377707.jpg" title="Courtyard by Marriott"></div>
@@ -141,9 +154,9 @@
                 </div>
             </div>
         </div>
-		<a name="top-menu" id="top"></a>
+        </div>
         <div class="row align-center">
-            <div class="small-12 large-12 column">
+            <div class="small-12 column">
                 <div class="wrap-tab-content">
                     <ul class="tab-list full-width" role="tablist" data-options="deep_linking: true">
                         <!--<li class="active"><a href="#org-group">Lobby &amp; sitting areas</a></li>-->
@@ -155,7 +168,7 @@
                     </ul>
                 </div>
 			</div>
-			<div class="small-12 large-12 column">
+			<div class="small-12 column">
 				<div class="tabs-content">
                     <div id="rooms" role="tabpanel" class="tab-item active">
                         <!--class="tab-item align-middle bottommargin-lg"-->
@@ -301,9 +314,6 @@
                                     <li>International cable/satellite</li>
                                     <li>CNN</li>
                                 </ul>
-
-
-
                                 <h4><strong>Rooftop Room</strong></h4>
                                 <p><b>Guest room, 1 King or 2 Twin/Single Bed(s), Sofa bed, Top floor</b></p>
                                 <p><b>Room Overview</b></p>
@@ -498,7 +508,7 @@
                                     <li>Lunch</li>
                                     <li>Reception</li>
                                 </ul>
-                                <h5><b>Capacity</b></h5>
+
                                 <p><b>Conference Room IV</b></p>
                                 <ul>
                                     <li>Dimensions (LxWxH): 16x13x7</li>
@@ -631,7 +641,7 @@
                     </div>
                 </div>
 			</div>
-			<div class="small-12 large-9 column">
+			<div class="small-12 column">
 				<!-- bottom menu -->
 				<div class="wrap-tab-content">
                     <ul class="tab-list full-width" data-options="data-auto-focus:true">
@@ -645,12 +655,9 @@
                 </div>
             </div>
         </div>
-     </div>
     </main>
 </div>
 <? include("/home/tours206/www/front_development/assets/footer.html");?>
 <? include("/home/tours206/www/front_development/assets/hotel_details_script.html");?>
-
-
 </body>
 </html>

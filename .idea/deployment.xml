@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="206tours.com">
+  <component name="PublishConfigData" autoUpload="Always" serverName="206tours.com" uploadOnCheckin="15c33836-041f-4b40-bed4-7049eb1aa23e" filePermissions="420" folderPermissions="493">
     <serverData>
       <paths name="206tours.com">
         <serverdata>
@@ -10,5 +10,7 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="206tours.com" />
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

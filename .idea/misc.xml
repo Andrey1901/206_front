@@ -3,4 +3,7 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="ProjectResources">
+    <resource url="https://www.w3.org/2000/svg" location="$PROJECT_DIR$" />
+  </component>
 </project>
